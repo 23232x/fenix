@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  position: relative;
+
+}
+
+header div.header-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  z-index: 10;
+}
+
+header nav {
+
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 128rem;
+  margin: 0 auto;
+
+
+}
+
+header nav div.logo h1 {
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 2rem;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid steelblue;
+  transition: 2s ease-all;
+}
+
+header nav .contato a {
+  color: #fff;
+  width: 15rem;
+  display: inline-block;
+  background: #5252F2;
+  border-radius: 10px;
+  height: 20px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* HERO */
+section.hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: black;
+  padding-top: 10rem;
+}
+
+section.hero div.imagem {
+  width: 60%;
+}
+
+section.hero div.hero-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INTRO */
+section.intro {
+  background: #191919;
+}
+
+section.intro div.intro-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 128rem;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+section.intro div.intro-container div.call-portifolio {
+  margin: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.intro div.intro-container div.call-portifolio h3 {
+  font-weight: 500;
+}
+
+section.intro div.intro-container div.call-portifolio p a {
+  display: block;
+  background: #5252F2;
+  font-size: 1.6rem;
+  width: 20rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+
+}
+
+section.intro div.intro-container div.intro-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card {
+
+  background: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex: 1 1 25rem;
+  height: 40rem;
+  margin: 10px;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card h3 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card p {
+  color: #A7A7A7;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 2rem 0;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card:hover {
+  background: #39393A;
+
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card img {
+  max-width: 25rem;
+
+}
+
+
+/* PARALAXE */
+section.fixed-parallax {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+section.fixed-parallax div.contend {
+  display: block;
+  background: url(img/statica.jpg)no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 40rem;
+}
+
+
+/* SERVICOS */
+
+section.servicos {
+  max-width: 90%;
+  width: 90rem;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+
+}
+
+section.servicos h2 {
+  color: #272727;
+}
+
+section.servicos h3 {
+  color: #272727;
+}
+
+section.servicos p {
+  color: #A7A7A7;
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  line-height: 25px;
+}
+
+/* QUALIDADE */
+section.qualidade {
+  background: #191919;
+}
+
+section.qualidade div.container-qualidade {
+  padding: 10rem 0;
+  width: 128rem;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+section.qualidade div.container-qualidade div.call-to-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.qualidade div.container-qualidade div.call-to-history h4 {
+  color: #A7A7A7;
+  margin-top: 6rem;
+}
+
+section.qualidade div.container-qualidade div.call-to-history a {
+  display: block;
+  width: 15rem;
+  color: #fff;
+  margin-top: 2rem;
+  background: #5252F2;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 100%;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo h5 {
+  color: #A7A7A7;
+  margin-top: 1rem;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo h4 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 8rem 0;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item {
+  flex: 1 1 25rem;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item h2 {
+  padding: 3rem 0;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item p {
+  text-align: center;
+  color: #A7A7A7;
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  line-height: 25px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+}
+
+footer div.footer-container {
+  width: 128rem;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+footer div.footer-container div.footer-line {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin-top: 5rem;
+
+}
+
+footer div.footer-container div.footer-line div.footer-item {
+  display: flex;
+  flex-direction: column;
+  background: red;
+  flex: 1 1 20rem;
+  margin: 3rem;
+}
+
+footer div.footer-container div.footer-line div.footer-item h3 {
+  margin-bottom: 2rem;
+}
+
+
+
+footer div.footer-container div.footer-line div.footer-item ul li {
+  line-height: 40px;
+
+}
+
+footer div.footer-container div.footer-line div.footer-item ul li span {
+  color: #646060;
+}
+
+footer div.footer-container div.footer-line div.footer-item ul li img {
+  display: inline-block;
+  width: 18px;
+  margin-right: 10px;
+}
+
+footer div.footer-container div.footer-line div.location ul {
+  display: flex
+}
+
+
+footer div.footer-container div.footer-line div.form {
+  flex: 2 1 40rem;
+  display: flex;
+  flex-direction: column;
+  background: crimson;
+  justify-content: right;
+}
+
+
+
+footer div.footer-container div.footer-line div.form input[type=text] {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #39393A;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+footer div.footer-container div.footer-line div.form div.form-msg input[type=text] {
+  width: 75%;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #39393A;
+
+
+}
+
+footer div.footer-container div.footer-line div.form div.form-nome-email #nome {
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+footer div.footer-container div.footer-line div.form div.form-nome-email #email {
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+
+footer div.footer-container div.footer-line div.form div.form-msg #mensagem {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar {
+  margin-top: 5rem;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit] {
+
+  width: 15rem;
+  color: #fff;
+  margin-top: 2rem;
+  background: #5252F2;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit]:hover {
+  background: rgb(123, 156, 218);
+  cursor: pointer;
+
+}
+
+footer div.footer-container div.footer-line div.form h2 {
+  margin-bottom: 2rem;
+}
+
+
+footer div.footer-container div.icons ul {
+  display: flex;
+  justify-content: center;
+  background: rebeccapurple;
+
+}
+
+footer div.footer-container div.icons ul li img {
+  width: 20px;
+  margin: 10px;
+}
+
+footer div.footer-container div.separador {
+  border-top: 1px solid #ffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+footer div.footer-container div.separador div.separador-container{
+  width: 62%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div.footer-container div.separador div.separador-container h1 {
+  
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0.10rem;
+  margin-top: 4rem;
+  color: green;
+}
