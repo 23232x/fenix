@@ -1,0 +1,46 @@
+        @media (max-width: 800px) {
+            header div.header-preto div.container-menu div.logo figure h1 {
+                color: pink;
+            }
+            section.hero div.imagem {
+                display: none;
+            }
+            section.hero div.hero-text {
+                max-width: 100%;
+                background: url(../img/hero/hero.jpg) no-repeat center;
+                background-size: cover;
+                height: 40vh;
+            }
+            section.hero div.hero-text div.container-hero-text {
+                height: 100%;
+                width: 100%;
+                margin-right: 8rem;
+                padding-top: 10px;
+            }
+            section.hero div.hero-text div.container-hero-text p.h1 {
+                text-align: right;
+                font-size: 3rem;
+            }
+            section.hero div.hero-text div.container-hero-text span {
+                text-align: right;
+            }
+            section.hero div.hero-text div.container-hero-text p.h3 {
+                font-size: 2rem;
+                margin-right: 2px;
+                width: 100%;
+                text-align: right;
+                line-height: 3rem;
+            }
+            section.hero div.hero-text div.container-hero-text p.h4 {
+                font-size: 1.25rem;
+                margin-right: 2px;
+                width: 100%;
+                text-align: right;
+            }
+        }
+        
+        @media (max-width: 733px) {
+            section.qualidade div.container-qualidade div.qualidade-linhas {
+                display: none;
+            }
+        }

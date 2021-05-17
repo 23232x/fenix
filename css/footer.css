@@ -1,0 +1,178 @@
+/* FOOTER */
+
+footer {
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer div.footer-container {
+    width: 1280rem;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+footer div.footer-container div.footer-line {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+}
+
+footer div.footer-container div.footer-line div.footer-item {
+    display: flex;
+    flex-direction: column;
+    /* margin: 5rem 5rem 5rem 5rem; */
+}
+
+footer div.footer-container div.footer-line div.contato {
+    flex: 2 1 35rem;
+    background: #2D208C;
+    margin: 3rem;
+}
+
+footer div.footer-container div.footer-line div.location {
+    flex: 1 1 20rem;
+    background: violet;
+    margin: 3rem;
+}
+
+footer div.footer-container div.footer-line div.form {
+    flex: 3 1 45rem;
+    background: tomato;
+    margin: 3rem;
+}
+
+footer div.footer-container div.footer-line div.location ul {
+    display: flex
+}
+
+footer div.footer-container div.footer-line div.footer-item h3 {
+    font-family: 'Goldman', cursive;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    line-height: 2.2;
+    font-weight: 150;
+    margin-bottom: 2rem;
+}
+
+footer div.footer-container div.footer-line div.footer-item ul li a {
+    color: #6B6666;
+    font-size: 1.4rem;
+    line-height: 40px;
+}
+
+footer div.footer-container div.footer-line div.footer-item ul li {
+    color: #6B6666;
+    font-size: 1.4rem;
+    line-height: 40px;
+}
+
+footer div.footer-container div.footer-line div.footer-item ul li img {
+    display: inline-block;
+    width: 18px;
+    margin-right: 10px;
+}
+
+footer div.footer-container div.footer-line div.form input[type=text] {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #39393A;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+footer div.footer-container div.footer-line div.form div.form-msg input[type=text] {
+    min-width: 335px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #39393A;
+}
+
+footer div.footer-container div.footer-line div.form div.form-nome-email #nome {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+footer div.footer-container div.footer-line div.form div.form-nome-email #email {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+footer div.footer-container div.footer-line div.form div.form-msg #mensagem {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar {
+    margin-top: 5rem;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit] {
+    width: 15rem;
+    color: #fff;
+    margin-top: 2rem;
+    background: #5252F2;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit]:hover {
+    background: #2D208C;
+    cursor: pointer;
+}
+
+footer div.footer-container div.footer-line div.form h2 {
+    margin-bottom: 2rem;
+}
+
+footer div.footer-container div.icons {
+    padding-top: 15rem;
+}
+
+footer div.footer-container div.icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container div.icons ul li img {
+    width: 20px;
+    margin: 10px;
+}
+
+footer div.footer-container div.separador {
+    border-top: 1px solid #ffff;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+footer div.footer-container div.separador div.separador-container {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+footer div.footer-container div.separador div.separador-container h1 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.10rem;
+    color: #6B6666;
+    align-self: center;
+}
+
+footer div.footer-container div.separador div.separador-container a {
+    align-self: flex-end;
+    margin-top: -2rem;
+}
+
+footer div.footer-container div.separador div.separador-container a img {
+    width: 2rem;
+    margin-right: 5px;
+}

@@ -1,0 +1,339 @@
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10rem;
+    background: #000000;
+}
+
+section.hero div.imagem {
+    flex: 1 1 50rem;
+}
+
+section.hero div.hero-text {
+    max-width: 50%;
+    flex: 1 1 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero div.hero-text div.container-hero-text p.h1 {
+    font-size: 4.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-family: 'Goldman', cursive;
+}
+
+section.hero div.hero-text div.container-hero-text span {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 3px;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+section.hero div.hero-text div.container-hero-text p.h3 {
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: 200;
+}
+
+section.hero div.hero-text div.container-hero-text p.h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+/* INTRO */
+
+section.intro {
+    background: #191919;
+}
+
+section.intro div.intro-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1280rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+section.intro div.intro-container h2 {
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive
+}
+
+section.intro div.intro-container h3 {
+    font-weight: 400;
+    color: #979797;
+    font-family: 'Bebas Neue', cursive
+}
+
+section.intro div.intro-container div.intro-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card {
+    background: #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex: 1 1 25rem;
+    height: 40rem;
+    margin: 10px;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card p {
+    color: #A7A7A7;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 2rem 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card:hover {
+    background: #39393A;
+}
+
+section.intro div.intro-container div.intro-cards div.intro-card img {
+    max-width: 15rem;
+}
+
+
+/* INTRO -  Botão call-to-action */
+
+div.call-to-action {
+    margin: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.call-to-action h6 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+div.call-to-action p a {
+    display: block;
+    background: #5252F2;
+    font-size: 1.6rem;
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+
+div.call-to-action p a:hover {
+    background: #2D208C;
+}
+
+
+/* PARALAXE */
+
+section.fixed-parallax {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section.fixed-parallax div.contend {
+    display: block;
+    background: url(../img/statica.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 40rem;
+    padding-top: 10rem;
+}
+
+section.fixed-parallax div.contend div.contend-description {
+    display: flex;
+    justify-content: flex-start;
+    background: #000000;
+    max-width: 18%;
+    margin-left: 10rem;
+    border-radius: 5px;
+    display: none;
+}
+
+section.fixed-parallax div.contend div.contend-description:focus-within {
+    display: block;
+}
+
+section.fixed-parallax div.contend div.contend-description ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 2rem;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+section.fixed-parallax div.contend div.contend-description ul li {
+    border-bottom: 1px solid #39393A;
+    padding: 1rem 0;
+}
+
+section.fixed-parallax div.contend div.contend-description ul li span {
+    color: #fff;
+    padding: 0 2rem 0 0;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+section.fixed-parallax div.contend div.contend-description ul:hover {
+    color: red;
+}
+
+
+/* SERVICOS */
+
+section.servicos {
+    max-width: 90%;
+    width: 90rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+section.servicos h2 {
+    color: #272727;
+    font-weight: 500;
+}
+
+section.servicos h3 {
+    color: #272727;
+    /*     font-size: 1.6rem; */
+    font-weight: 400;
+}
+
+section.servicos p {
+    color: #6F6F6F;
+    font-weight: 200;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    line-height: 30px;
+    margin-top: 6.5rem;
+}
+
+
+/* QUALIDADE */
+
+section.qualidade {
+    background: #191919;
+}
+
+section.qualidade div.container-qualidade {
+    padding: 10rem 0;
+    width: 128rem;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+section.qualidade div.container-qualidade div.qualidade-linhas img {
+    margin-top: -5rem;
+    max-width: 80rem;
+    display: block;
+    max-width: 100%;
+    padding: 0 15rem;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo h2 {
+    color: #fff;
+    /* font-size: 3rem; */
+    font-weight: 500;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo h3 {
+    margin-top: 1rem;
+    /* font-size: 2.25rem; */
+    font-weight: 400;
+    color: #979797;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo h4 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Goldman', cursive;
+    margin-top: 8rem;
+}
+
+section.qualidade div.container-qualidade div.qualidade-titulo span {
+    font-size: 1.25rem;
+    padding-left: 3px;
+    margin-bottom: 5rem;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item {
+    flex: 1 1 25rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item h2 {
+    color: #fff;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+section.qualidade div.container-qualidade div.qualidade-item div.item p {
+    text-align: center;
+    color: #A7A7A7;
+    font-weight: 200;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    line-height: 30px;
+}

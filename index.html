@@ -2,128 +2,122 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="css/res.css" media="screen and (max-width: 800px)">
 
+    <title>Fenix Desenvolvimento</title>
 </head>
 
 <body>
-
     <header>
-        <div class="header-container">
-
-            <div class="menu-section">
-                <div class="menu-tuggle">
-
-                    <div class="one"></div>
-                    <div class="two"></div>
-                    <div class="three"></div>
+        <div class="header-preto">
+            <div class="container-menu">
+                <div class="logo">
+                    <a href="index.html">Fenix</a>
+                    <span>Desenvolvimento</span>
+                </div>
+                <div class="menu-section">
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="index.html" title="Página inicial">Home</a></li>
+                            <li><a href="portifolio.html" title="Sobre a Voel Interactive">Portifólio</a></li>
+                            <li><a href="servicos.html" title="Conheça nossos serviços">Servicos</a></li>
+                            <li class="sobre">
+                                <a href="sobre.html" title="Entre em contato, vamos Conversar">Sobre</a>
+                            </li>
+                            <li class="contato">
+                                <a href="fluxograma.html#faq" title="Sessão de Perguntas frequentes">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-
-            <nav>
-                <div class="logo">
-                    <h1>Fenix</h1>
-
-                </div>
-                <!-- lista do menu -->
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#portifolio">Portifólio</a></li>
-                    <li><a href="index.html#servicos">Serviços</a></li>
-                    <li><a href="index.html#sobre">Sobre</a></li>
-                </ul>
-
-                <div class="contato">
-                    <a href="#contato">contato</a>
-                </div>
-
-            </nav>
         </div>
     </header>
 
     <!-- HERO -->
     <section class="hero">
-
         <div class="imagem">
-            <img src="img/hero.jpg" alt="Hero">
+            <img src="img/hero/hero.jpg" alt="Hero">
         </div>
-
         <div class="hero-text">
             <div class="container-hero-text">
-                <h1>Fenix</h1>
-                <h1>Moldes para injeção de <br>termoplásticos e metal</h1>
-                <h4>Fabricação sob demanda e prototipagem rápida</h4>
-                </h4>
+                <p class="h1">Fenix</p>
+                <span>Desenvolvimento</span>
+                <p class="h3">Moldes para injeção de termoplásticos e metal </p>
+                <p class="h4">Fabricação sob demanda e prototipagem rápida</p>
             </div>
         </div>
     </section>
-
     <!-- INTRO -->
-
     <section class="intro">
-
         <div class="intro-container">
-
             <h2>Portifólio</h2>
             <h3>Nossas Capacidades de fabricação</h3>
-
             <div class="intro-cards">
-
                 <div class="intro-card">
-
                     <img src="img/portifolio/card1.png" alt="">
                     <h3>Moveleira</h3>
                     <p>Peça para a Movelaria</p>
-
-
                 </div>
-
                 <!-- CARD 2 -->
                 <div class="intro-card">
-
                     <img src="img/portifolio/card1.png" alt="">
                     <h3>Moveleira</h3>
                     <p>Peça para a Movelaria</p>
                 </div>
-
                 <!-- CARD3 -->
                 <div class="intro-card">
                     <img src="img/portifolio/card1.png" alt="">
                     <h3>Moveleira</h3>
                     <p>Peça para a Movelaria</p>
                 </div>
-
                 <!-- CARD 4 -->
-
                 <div class="intro-card">
                     <img src="img/portifolio/card1.png" alt="">
                     <h3>Moveleira</h3>
                     <p>Peça para a Movelaria</p>
                 </div>
-
-
             </div>
-
-            <div class="call-portifolio">
-                <h3>Conheça nosso</h3>
+            <div class="call-to-action">
+                <h6>Conheça Nosso</h6>
                 <p><a href="portifolio.html">Portifólio</a></p>
             </div>
-
         </div>
-
     </section>
 
     <!-- IMAGEM FIXA -->
-
     <section class="fixed-parallax">
         <div class="contend">
+            <div class="contend-description">
+                <ul>
+                    <li>
+                        <span class="material-type">Material:</span>
+                        <span class="desc-material">Aço</span>
+                    </li>
+                    <li>
+                        <span class="desc-tittle">Descrição :</span>
+                        <span class="desc-type">Molde de plastico</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -135,65 +129,56 @@
         <h2>Nossos serviços</h2>
         <h3>Conheça nossas soluções</h3>
         <p>
-            A Fênix desenvolve e fabrica moldes para injetados de termoplásticos e metal, a fim
-            suprimindo demandas de vários setores da indústria, tais como: têxtil, Moveleira, metais sanitários,
-            calçadista, automotiva, itens de coleção, componentes hidráulicos e itens de uso pessoal.
+            A Fênix desenvolve e fabrica moldes para injeção de termoplásticos e metal, suprindo demandas de vários setores da indústria, tais como: têxtil, moveleira, metais sanitários, calçadista, automotiva, itens de coleção, componentes hidráulicos e itens de
+            uso pessoal.
         </p>
     </section>
 
-
+    <!-- QUALIDADE -->
 
     <section class="qualidade">
-
         <div class="container-qualidade">
-
             <div class="qualidade-titulo">
                 <h2>Nossa Qualidade</h2>
-                <h5>Peças de alta qualidade sempre</h5>
+                <h3>Peças de alta qualidade sempre</h3>
                 <h4>FENIX</h4>
+                <span>Desenvolvimento</span>
+            </div>
+            <div class="qualidade-linhas">
+                <img src="img/qualidade/linhas.svg" alt="">
             </div>
 
-
             <div class="qualidade-item">
-
-
                 <!-- item 1 -->
                 <div class="item">
                     <h2>Sustentabilidade</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid
-                        veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi
-                        inventore consectetur rerum, obcaecati eos architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi inventore consectetur rerum, obcaecati eos architecto.
                     </p>
                 </div>
 
                 <!-- item 2 -->
 
                 <div class="item">
-                    <h2>Sustentabilidade</h2>
+                    <h2>Alta Qualidade</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid
-                        veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi
-                        inventore consectetur rerum, obcaecati eos architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi inventore consectetur rerum, obcaecati eos architecto.
                     </p>
                 </div>
 
                 <!-- item 3 -->
 
                 <div class="item">
-                    <h2>Sustentabilidade</h2>
+                    <h2>Agilidade</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid
-                        veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi
-                        inventore consectetur rerum, obcaecati eos architecto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni soluta saepe aliquid veniam libero provident facilis asperiores omnis nulla corrupti ullam neque commodi inventore consectetur rerum, obcaecati eos architecto.
                     </p>
                 </div>
             </div>
 
-
-            <div class="call-to-history">
-                <h4>Conheça Nossa</h4>
-                <a href="historia.html">História</a>
+            <div class="call-to-action">
+                <h6>Conheça Nossa</h6>
+                <p><a href="historia.html">História</a></p>
             </div>
         </div>
     </section>
@@ -211,13 +196,25 @@
                 <div class="contato footer-item">
                     <h3>Contate-nos</h3>
                     <ul>
-                        <li><img src="img/whatsapp.svg" alt=""><span>(51)996654084</span></li>
-                        <li><img src="img/whatsapp.svg" alt=""><span>(51) 997401034</span></li>
-                        <li><img src="img/footer/email.svg" alt=""><span>fenixdesenvolvimento.ind.br</span></li>
+                        <li>
+                            <img src="img/footer/whatsapp.svg" alt="">
+                            <a href="tel:5551996654084">(51)996654084</a>
+                        </li>
+                        <li>
+                            <img src="img/footer/whatsapp.svg" alt="">
+                            <a href="tel:5551996654084">(51)996654084</a>
+                        </li>
+                        <li>
+                            <img src="img/footer/email.svg" alt="">
+                            <a href="mailto:adm@fenixdesenvolvimento.ind.br">
+                                adm@fenixdesenvolvimento.ind.br
+                            </a>
+
+                        </li>
                     </ul>
                 </div>
                 <div class="location footer-item">
-                    <h3>Nossa Localizaçãp</h3>
+                    <h3>Nossa Localização</h3>
                     <ul>
                         <li>
                             <img src="img/footer/location.svg" alt="">
@@ -226,7 +223,7 @@
                     </ul>
                 </div>
                 <div class="form footer-item">
-                    <h2>Mande-nos uma mensagem</h2>
+                    <h3>Mande-nos uma mensagem</h3>
 
                     <div class="form-nome-email">
                         <input type="text" name="nome" id="nome" placeholder="Nome">
@@ -241,11 +238,6 @@
 
 
 
-
-
-
-
-
                 </div>
 
             </div>
@@ -253,9 +245,18 @@
             <div>
                 <div class="icons">
                     <ul>
-                        <li><img src="img/footer/email.svg" alt=""></li>
-                        <li><img src="img/footer/location.svg" alt=""></li>
-                        <li><img src="img/footer/location.svg" alt=""></li>
+                        <li>
+                            <a href="mailto:direcao@fenixdesenvolvimento.ind.br">
+
+                                <img src="img/footer/email.svg" alt="mande-nos um email">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:5551996654084">
+                                <img src="img/footer/whatsapp.svg" alt="Envie -nos uma mensagem pelo whatsapp">
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
 
@@ -263,8 +264,11 @@
 
             <div class="separador">
                 <div class="separador-container">
-                    <h1> © Copyright 2021 Fenix Desenvolvimento</h1>
-                    <h2>voel</h2>
+                    <h1>
+                        © Copyright 2021 Fenix Desenvolvimento
+                    </h1>
+                    <a href="voel.dev.br"><img src="img/favicon-32x32.png" alt="Voel">
+                    </a>
                 </div>
             </div>
 
@@ -272,7 +276,8 @@
         </div>
 
     </footer>
-
+    <script src="parallax.js"></script>
+    <script src="menu.js"></script>
 
 
 </body>
