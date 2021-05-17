@@ -29,33 +29,36 @@ footer div.footer-container div.footer-line div.footer-item {
 
 footer div.footer-container div.footer-line div.contato {
     flex: 2 1 35rem;
-    background: #2D208C;
     margin: 3rem;
+}
+
+footer div.footer-container div.footer-line div.contato ul {
+    margin-top: 5rem;
 }
 
 footer div.footer-container div.footer-line div.location {
     flex: 1 1 20rem;
-    background: violet;
     margin: 3rem;
 }
 
 footer div.footer-container div.footer-line div.form {
     flex: 3 1 45rem;
-    background: tomato;
     margin: 3rem;
 }
 
 footer div.footer-container div.footer-line div.location ul {
-    display: flex
+    display: flex;
+    margin-top: 5rem;
 }
 
 footer div.footer-container div.footer-line div.footer-item h3 {
     font-family: 'Goldman', cursive;
     color: #FFFFFF;
-    font-size: 1.8rem;
+    font-size: 1rem;
     line-height: 2.2;
-    font-weight: 150;
+    font-weight: 500;
     margin-bottom: 2rem;
+    zoom: 2;
 }
 
 footer div.footer-container div.footer-line div.footer-item ul li a {
@@ -77,6 +80,7 @@ footer div.footer-container div.footer-line div.footer-item ul li img {
 }
 
 footer div.footer-container div.footer-line div.form input[type=text] {
+    margin-top: 5rem;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #39393A;
@@ -85,7 +89,7 @@ footer div.footer-container div.footer-line div.form input[type=text] {
 }
 
 footer div.footer-container div.footer-line div.form div.form-msg input[type=text] {
-    min-width: 335px;
+    min-width: 70%;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #39393A;
@@ -133,7 +137,7 @@ footer div.footer-container div.footer-line div.form h2 {
 }
 
 footer div.footer-container div.icons {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 footer div.footer-container div.icons ul {
@@ -148,7 +152,7 @@ footer div.footer-container div.icons ul li img {
 }
 
 footer div.footer-container div.separador {
-    border-top: 1px solid #ffff;
+    /*   border: thin solid #6B6666; */
     margin-bottom: 20px;
     margin-top: 1rem;
 }

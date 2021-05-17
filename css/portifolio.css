@@ -46,7 +46,7 @@
                 section.intro div.intro-container h3 {
                     font-weight: 400;
                     color: #979797;
-                    font-family: 'Bebas Neue', cursive
+                    font-family: 'Bebas Neue', cursive;
                 }
                 
                 section.intro div.intro-container div.intro-cards {
@@ -79,8 +79,7 @@
                 
                 section.intro div.intro-container div.intro-cards div.intro-card p {
                     color: #A7A7A7;
-                    font-weight: 400;
-                    font-size: 1.25rem;
+                    font-size: 1.4rem;
                     padding: 2rem 0;
                     font-family: 'Bebas Neue', cursive;
                 }

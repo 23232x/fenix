@@ -1,27 +1,36 @@
+header {
+    margin-top: -10rem;
+}
+
+
 /* PÁGINA HISTÓRIA */
 
 section.hero-historia {
-    background: url(../img/historia/hero-historia.jpg)no-repeat center;
+    display: block;
+    margin-top: 10rem;
+    background-image: url(../img/historia/historia.png);
     background-size: cover;
-    height: 40rem;
-}
-
-section.hero h2 {
-    font-weight: 500;
-    font-size: 4.2rem;
-    padding-top: 8rem;
-    padding-right: 8rem;
-    font-family: 'Bebas Neue', cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 30rem;
 }
 
 section.hero-historia h2 {
-    font-size: 6.25rem;
-    background: red;
+    font-weight: 500;
+    font-size: 4.2rem;
     font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    padding-top: 5%;
 }
 
 section.hero-historia p {
     font-size: 2.25rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
 }
 
 section.historia {

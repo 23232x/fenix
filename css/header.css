@@ -60,10 +60,11 @@ header div.header-preto div.container-menu div.menu-section nav.menu ul li.conta
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 3.35rem;
     border-radius: 5px;
 }
 
 header div.header-preto div.container-menu div.menu-section nav.menu ul li.contato a:hover {
     background: #2D208C;
+    border-bottom: none;
 }
