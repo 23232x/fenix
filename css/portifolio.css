@@ -90,6 +90,7 @@
                 
                 section.intro div.intro-container div.intro-cards div.intro-card img {
                     max-width: 15rem;
+                    margin-bottom: 6rem;
                 }
                 
                 div.call-to-action {
