@@ -1,0 +1,5 @@
+---
+implantação :
+  tarefas :
+    - exportar DEPLOYPATH = / home / x3vfenixdesenvol / public_html /
+    - / bin / cp -R * $ DEPLOYPATH
