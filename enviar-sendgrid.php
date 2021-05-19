@@ -1,6 +1,8 @@
 <?php
-
- require("./sendgrid-php/sendgrid-php.php");
+/* antes */
+ /* require("./sendgrid-php/sendgrid-php.php"); */
+ /* agora */ 
+ require("sendgrid-php/sendgrid-php.php");
 $email_site = "orcamento@fenixdesenvolvimento.ind.br";
 $nome_site = "Fenix";
 
