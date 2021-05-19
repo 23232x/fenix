@@ -174,19 +174,22 @@
                 </div>
                 <div class="form footer-item" id="contato">
                     <h3>Mande-nos uma mensagem</h3>
+                    <form id="fom_orcamento" method="POST" action="enviar-sendgrid.php" class="formphp">
+                        <div class="form-nome-email">
+                            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <input type="text" class="nao-aparece" name="leaveblank">
+                            <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                        </div>
 
-                    <div class="form-nome-email">
-                        <input type="text" name="nome" id="nome" placeholder="Nome">
-                        <input type="text" name="email" id="email" placeholder="Email">
-                    </div>
+                        <div class="form-msg">
+                            <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required>
+                        </div>
+                        <div class="btn-enviar">
+                            <button id="enviar" name="enviar" type="submit">Enviar</button>
 
-                    <div class="form-msg">
-                        <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem">
-                    </div>
-
-                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
-
-
+                        </div>
+                    </form>
 
                 </div>
 
@@ -226,20 +229,9 @@
         </div>
 
     </footer>
-    <script src="parallax.js"></script>
-    <script src="menu.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-    <script src="menu.js"></script>
+    <script src="/js/simple-form.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

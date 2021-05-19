@@ -237,25 +237,25 @@
                 </div>
                 <div class="form footer-item" id="contato">
                     <h3>Mande-nos uma mensagem</h3>
+                    <form id="fom_orcamento" method="POST" action="enviar-sendgrid.php" class="formphp">
+                        <div class="form-nome-email">
+                            <input type="text" name="nome" id="nome" placeholder="Nome" required>
 
-                    <div class="form-nome-email">
-                        <input type="text" name="nome" id="nome" placeholder="Nome">
-                        <input type="text" name="email" id="email" placeholder="Email">
-                    </div>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
 
-                    <div class="form-msg">
-                        <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem">
-                    </div>
+                            <input type="text" class="nao-aparece" name="leaveblank">
+                            <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                        </div>
 
-                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
-
-
-
+                        <div class="form-msg">
+                            <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required>
+                        </div>
+                        <div class="btn-enviar">
+                            <button id="enviar" name="enviar" type="submit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-
             </div>
-
-
             <div class="icons">
                 <ul>
                     <li>
@@ -272,11 +272,7 @@
 
                 </ul>
             </div>
-
-
-
             <div class="separador">
-
                 <div class="separador-container">
                     <h1>
                         © Copyright 2021 Fenix Desenvolvimento
@@ -285,15 +281,11 @@
                     </a>
                 </div>
             </div>
-
-
         </div>
-
     </footer>
-    <script src="parallax.js"></script>
-    <script src="menu.js"></script>
-
-
+    <script src="/js/simple-form.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

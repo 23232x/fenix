@@ -46,6 +46,15 @@ footer div.footer-container div.footer-line div.form {
     margin: 3rem;
 }
 
+
+/* manete para contra robo */
+
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
 footer div.footer-container div.footer-line div.location ul {
     display: flex;
     margin-top: 5rem;
@@ -88,7 +97,16 @@ footer div.footer-container div.footer-line div.form input[type=text] {
     color: #fff;
 }
 
-footer div.footer-container div.footer-line div.form div.form-msg input[type=text] {
+footer div.footer-container div.footer-line div.form input[type=email] {
+    margin-top: 5rem;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #39393A;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+footer div.footer-container div.footer-line div.form div.form-msg input[type=email] {
     min-width: 70%;
     background: transparent;
     border: 0;
@@ -114,7 +132,7 @@ footer div.footer-container div.footer-line div.form div.btn-enviar {
     margin-top: 5rem;
 }
 
-footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit] {
+footer div.footer-container div.footer-line div.form div.btn-enviar button {
     width: 15rem;
     color: #fff;
     margin-top: 2rem;
@@ -127,7 +145,7 @@ footer div.footer-container div.footer-line div.form div.btn-enviar input[type=s
     font-weight: 500;
 }
 
-footer div.footer-container div.footer-line div.form div.btn-enviar input[type=submit]:hover {
+footer div.footer-container div.footer-line div.form div.btn-enviar button:hover {
     background: #2D208C;
     cursor: pointer;
 }

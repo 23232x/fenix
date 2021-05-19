@@ -3,19 +3,23 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+
+
 require "./PHPMailer/src/Exception.php";
 require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
+
+
   
 // Mudar Aqui o e-mail
-$email_envio = ""; // E-mail do site (ex: contato@seusite.com)
-$email_pass = ""; // Senha do e-mail
+$email_envio = "orcamento@fenixdesenvolvimento.ind.br"; // E-mail do site (ex: contato@seusite.com)
+$email_pass = "fenix123"; // Senha do e-mail
 
-$site_name = "Bikcraft"; // Nome do Site
-$site_url = "www.bikcraft.com"; // URL do Site
+$site_name = "Fenix"; // Nome do Site
+$site_url = "www.fenixdesenvolvimento.ind.br"; // URL do Site
 
-$host_smtp = ""; // HOST SMTP Ex: smtp.domain.com.br
-$host_port = ""; // Porta do Host, geralmente 465 ou 587
+$host_smtp = "server39.integrator.com.br"; // HOST SMTP Ex: smtp.domain.com.br
+$host_port = "465"; // Porta do Host, geralmente 465 ou 587
 
 
 // Não mudar abaixo:
