@@ -13,7 +13,7 @@ require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
 $email_envio = "orcamento@fenixdesenvolvimento.ind.br"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = "fenix123"; // Senha do e-mail
+$email_pass = "fenix123?"; // Senha do e-mail
 
 $site_name = "Fenix"; // Nome do Site
 $site_url = "www.fenixdesenvolvimento.ind.br"; // URL do Site
