@@ -107,7 +107,6 @@ footer div.footer-container div.footer-line div.form input[type=email] {
 }
 
 footer div.footer-container div.footer-line div.form div.form-msg input[type=email] {
-    min-width: 70%;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #39393A;
@@ -124,6 +123,7 @@ footer div.footer-container div.footer-line div.form div.form-nome-email #email 
 }
 
 footer div.footer-container div.footer-line div.form div.form-msg #mensagem {
+    min-width: 70%;
     margin-top: 20px;
     padding-bottom: 40px;
 }
