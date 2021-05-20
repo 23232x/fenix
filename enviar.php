@@ -17,7 +17,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "orcamento@fenix.ind.br";
+  $destino = "orcamento@fenixdesenvolvimento.ind.br";
   $assunto = "Contato pelo Site";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
