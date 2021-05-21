@@ -8,7 +8,7 @@ footer {
 }
 
 footer div.footer-container {
-    width: 1280rem;
+    width: 128rem;
     max-width: 90%;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ footer div.footer-container div.footer-line div.form {
 
 .nao-aparece {
     visibility: hidden;
-    position: absolute;
+    /*   position: absolute; */
     height: 0px;
 }
 
